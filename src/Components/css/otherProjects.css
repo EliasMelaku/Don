@@ -1,0 +1,27 @@
+.otherProjects{
+    background: white;
+    position: relative;
+}
+.otherProjTitle{
+    color: black;
+    position: absolute;
+    z-index: 99;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    top: 2rem;
+}
+.otherProjGrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.singleProjOtherContainer{
+    width: 20rem;
+    padding: 0.75rem;
+    border: solid 1px rgb(162, 162, 162);
+}
+.singleOtherDescription{
+    text-align: justify;
+    hyphens: auto;
+}

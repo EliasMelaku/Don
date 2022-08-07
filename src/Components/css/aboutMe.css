@@ -1,0 +1,33 @@
+.aboutMe{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.myPicture{
+    width: 20rem;
+    height: 30rem;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-10%, -50%);
+}
+.aboutMeTitle{
+    position: absolute;
+    top: 15rem;
+    left: 35rem;
+}
+
+.aboutMeDescription{
+    position: relative;
+    text-align: justify;
+    hyphens: auto;
+    width: 50rem;
+    line-height: 36px;
+    left: 10rem;
+    margin-top: 4rem;
+}

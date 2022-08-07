@@ -1,0 +1,31 @@
+.greeting{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.greetingTitle{
+    color: white;
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.fromDon{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: 5rem;
+    left: -10rem;
+}
+
+.myPic{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-20px) scale(3.1);
+}
