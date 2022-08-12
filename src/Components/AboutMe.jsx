@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className="aboutMe">
       <img
-        src={require("./images/don.png")}
+        src={require("./images/don.jfif")}
         alt=""
         className="myPicture"
       />

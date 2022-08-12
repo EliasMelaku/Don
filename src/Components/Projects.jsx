@@ -37,7 +37,7 @@ const Projects = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
             ullam, corrupti ad aliquid distinctio saepe!
           </p>
-          <i class="fa-solid fa-up-right-from-square"></i>
+          <i className="fa-solid fa-up-right-from-square"></i>
         </div>
         <div className="singleProjOtherContainer">
           <h4 className="singleOtherTitle">Lorem ipsum dolor sit</h4>

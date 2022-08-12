@@ -1,3 +1,74 @@
 .contact{
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: grid;
+    grid-template-columns: 30% 60%;
+    /* column-gap: 2rem; */
+    /* border: solid 1px red; */
+    padding: 0 2rem;
+}
+
+.socialsPart{
+    width: 75%;
+    height: 70vh;
+    background-color: beige;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 8px 1px rgb(200, 200, 200);
+}
+.formPart{
+    width: 100%;
+    height: 80vh;
+    /* background-color: white; */
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    position: relative;
+    /* box-shadow: 0 0 8px 1px rgb(200, 200, 200); */
+}
+.formTitle{
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+}
+
+.formInputGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 35rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin: 2rem 0;
+}
+
+.formInput{
+    padding: 0.75rem;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+}
+.subject{
+    display: block;
+    margin: 1rem 0;
+    width: 35.25rem;
+}
+.message{
+    margin: 1rem 0;
+    width: 35.25rem;
+    resize: none;
+}
+.formInput:focus{
+    outline: none;
+}
+
+.sendBtn{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    width: 10rem;
+    height: 3rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
